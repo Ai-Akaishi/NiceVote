@@ -17,3 +17,6 @@ data modify storage good_choice: buttons append from storage nice_vote: button
 data modify storage oh_my_dat: _[-4][-4][-4][-4].[-4][-4][-4][-4].NiceVote.Score set value 0
 ## スコアもリセット
 function #nice_vote:score
+
+## リセット用に参加者の番号を記録しておく
+data modify storage nice_vote: ids append from storage nice_vote: button.OhMyDatID

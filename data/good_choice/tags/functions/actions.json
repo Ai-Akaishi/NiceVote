@@ -1,5 +1,6 @@
 {
     "values": [
-        "nice_vote:vote"
+        "nice_vote:vote",
+        "nice_vote:extra/vote"
     ]
 }
